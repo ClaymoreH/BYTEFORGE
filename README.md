@@ -1,12 +1,12 @@
 # ByteForge — Loja de peças para PC
 
-**Aluno(a):** SEU NOME AQUI  
-**Trilha:** Desenvolvimento Web  
+**Aluno(a):** Maria Fernanda de Sousa Costa  
+**Trilha:** Desenvolvimento Mobile 
 **Projeto:** Desafio 1 — Minha Loja: Simulador de Compras
 
 ## Sobre a loja
 
-A ByteForge é uma loja fictícia de componentes para computadores. A página apresenta quatro peças para quem deseja montar ou atualizar um PC:
+A ByteForge é uma loja de componentes para computadores. A página apresenta quatro peças para quem deseja montar ou atualizar um PC:
 
 | Produto | Preço |
 |---|---:|
@@ -30,26 +30,3 @@ A simulação concede **10% de desconto para compras com subtotal igual ou super
 3. Abra o arquivo `index.html` em um navegador.
 4. Clique em **Simular compra** e informe as quantidades solicitadas.
 5. Digite `0` quando não quiser comprar determinado produto.
-
-Não é necessário instalar programas ou bibliotecas.
-
-## Captura de tela
-
-![Prévia visual da loja ByteForge](assets/captura-da-loja.png)
-
-> A imagem incluída é uma prévia visual. Antes de entregar, abra o `index.html` no navegador, tire uma captura de tela da página e substitua este arquivo por ela, mantendo o nome `captura-da-loja.png`.
-
-## Testes realizados
-
-- Informar `0` para todos os produtos: a página informa que nenhum produto foi selecionado.
-- Comprar uma unidade de Memória RAM: o resumo mostra a quantidade e o valor de R$ 329,90.
-- Comprar uma unidade de GeForce RTX 4060: o sistema aplica o desconto de 10%.
-- Informar uma quantidade negativa ou um valor que não seja numérico: o sistema avisa que a quantidade é inválida.
-
-## Dificuldade encontrada e aprendizado
-
-Uma dificuldade foi organizar os cálculos e verificar quando o desconto deveria ser aplicado. Aprendi a utilizar `prompt()` para receber informações, `Number()` para converter as respostas em números, variáveis para guardar os valores e condições (`if`) para verificar o desconto.
-
-## Uso de inteligência artificial
-
-A inteligência artificial foi utilizada como apoio para organizar a estrutura inicial do projeto, sugerir a identidade visual e revisar partes do código. O projeto deve ser estudado e adaptado pelo aluno. É importante testar a simulação e conseguir explicar o funcionamento das variáveis, dos cálculos e das condições utilizadas.
