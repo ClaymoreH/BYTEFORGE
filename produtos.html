@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByteForge | Peças & Simulação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo topo-compacto">
+    <nav class="navegacao">
+      <a class="logo" href="index.html"> <span class="logo-icone">▦</span> BYTEFORGE</a>
+      <div class="menu-links">
+        <a href="index.html">Início</a>
+        <a href="produtos.html" class="link-ativo">Componentes</a>
+      </div>
+      <span class="selo">HARDWARE • UPGRADES • PERFORMANCE</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="produtos-section" id="produtos">
+      <div class="secao-cabecalho">
+        <div>
+          <p class="etiqueta">CATÁLOGO DE COMPONENTES</p>
+          <h2>Peças em destaque<span>.</span></h2>
+        </div>
+        <p class="nota">𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞 𓆝 𓆟</p>
+      </div>
+
+      <div class="grade-produtos">
+        <!-- PRODUTO 1 -->
+        <article class="produto">
+          <div class="produto-imagem">
+            <span class="tag">PROCESSADOR</span>
+            <img src="assets/cpu.jpg" alt="Processador AMD Ryzen" class="img-real">
+          </div>
+          <div class="produto-info">
+            <p class="categoria">DESEMPENHO</p>
+            <h3>Processador Ryzen 5</h3>
+            <p class="produto-desc">6 núcleos e 12 threads. Perfeito para gameplay fluida e multitarefas do dia a dia.</p>
+            <div class="produto-rodape">
+              <strong>R$ 899,90</strong>
+              <span>01 / 04</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUTO 2 -->
+        <article class="produto">
+          <div class="produto-imagem">
+            <span class="tag">PLACA DE VÍDEO</span>
+            <img src="assets/gpu.jpg" alt="Placa de Vídeo RTX" class="img-real">
+          </div>
+          <div class="produto-info">
+            <p class="categoria">GRÁFICOS</p>
+            <h3>GeForce RTX 4060</h3>
+            <p class="produto-desc">Tecnologia Ray Tracing e DLSS 3 para rodar seus títulos favoritos com fidelidade visual.</p>
+            <div class="produto-rodape">
+              <strong>R$ 1.899,90</strong>
+              <span>02 / 04</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUTO 3 -->
+        <article class="produto">
+          <div class="produto-imagem">
+            <span class="tag">MEMÓRIA RAM</span>
+            <img src="assets/ram.png" alt="Pente de Memória RAM" class="img-real">
+          </div>
+          <div class="produto-info">
+            <p class="categoria">VELOCIDADE</p>
+            <h3>Memória RAM 16GB</h3>
+            <p class="produto-desc">Módulo DDR4 de alta frequência para evitar gargalos em renderizações e jogos pesados.</p>
+            <div class="produto-rodape">
+              <strong>R$ 329,90</strong>
+              <span>03 / 04</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUTO 4 -->
+        <article class="produto">
+          <div class="produto-imagem">
+            <span class="tag">ARMAZENAMENTO</span>
+            <img src="assets/ssd.webp" alt="SSD M.2 NVMe" class="img-real">
+          </div>
+          <div class="produto-info">
+            <p class="categoria">AGILIDADE</p>
+            <h3>SSD NVMe 1TB</h3>
+            <p class="produto-desc">Carregamento instantâneo do sistema operacional e tempos de tela mínimos nos jogos.</p>
+            <div class="produto-rodape">
+              <strong>R$ 459,90</strong>
+              <span>04 / 04</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ÁREA DO SIMULADOR -->
+    <section class="simulador">
+      <div class="simulador-texto">
+        <p class="etiqueta">CALCULE SEU ORÇAMENTO</p>
+        <h2>Partiu upgrade?</h2>
+        <p>
+          Clique no botão abaixo para iniciar a simulação interativa. Informe as unidades desejadas de cada componente!
+        </p>
+      </div>
+      <div class="simulador-acao">
+        <div class="desconto">
+          <span>✦</span>
+          <p>
+            <strong>10% OFF</strong>
+            <small>Em compras a partir de R$ 1.500,00</small>
+          </p>
+        </div>
+        <button onclick="simularCompra()">Simular compra <span>↗</span></button>
+        <small class="aviso">Você pode digitar 0 para os produtos que não desejar.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="index.html"><span class="logo-icone">▦</span> BYTEFORGE</a>
+    <p>Desafio 01 • Lojinha mais badalada de hardware</p>
+    <p class="credito">Desenvolvido por: <strong>MARIA FERNANDA DE SOUSA COSTA</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
